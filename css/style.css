@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+.jumbotron {
+  padding: 60px;
+  background-color: #000000;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+   background-color: #0f1822;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+}
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+.profile figure {
+	margin: 0 auto;
+}
+
+.profile img {
+	width: 150px;
+  border-radius: 100%;
+  border: solid;
+  border-color: aliceblue;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+  border: solid;
+  border-color: aliceblue;
+  /* background-color: aliceblue; */
+}
+
+.button {
+  background-color: #ffffff;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  border: solid;
+  border-color: aliceblue;
+} 
+
+.button:hover {
+  background-color: #0f1822; 
+  color: white;
+}
+
+header {
+   display: inline;
+}
+
+.profile header {
+	text-align: center;
+}
+
+.featured-image {
+	width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+	object-position: center;
+  border: solid;
+  border-color: aliceblue;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+th {
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #0f1822;
+   text-align: center;
+   font-weight: bold;
+}
+
+.dark-mode {
+  background-color: #1d2935;
+  color: aliceblue;
+  
+}
+
+.card-dark {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+  background-color: rgb(68, 68, 68);
+}
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
